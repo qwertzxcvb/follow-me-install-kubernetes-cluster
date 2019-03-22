@@ -26,7 +26,7 @@ keytool -import -v -trustcacerts -alias appmanagement -file "PATH...\\ca.pem" -s
 将创建的 admin.pfx 导入到系统的证书中。对于 Mac，操作如下：
 
 ![admin-cert](images/admin-cert.png)
-win系统下该文件可以打开，放在桌面导入不可用
+
 
 **重启浏览器**，再次访问 https://172.27.128.150:6443/，提示选择一个浏览器证书，这里选中上面导入的 admin.pfx：
 
